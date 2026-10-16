@@ -51,7 +51,9 @@ class JsBridge(
                         base64Data
                     }
                     val fileBytes = Base64.decode(cleanBase64, Base64.DEFAULT)
-                    val safeFilename = if (filename.isNotBlank()) filename else "phishguard_report_${System.currentTimeMillis()}"
+                    val rawFilename = if (filename.isNotBlank()) filename else "phishguard_report_${System.currentTimeMillis()}"
+                    // Sanitize against directory traversal and illegal characters
+                    val safeFilename = File(rawFilename).name.replace("[^a-zA-Z0-9._-]".toRegex(), "_")
 
                     val savedUri = saveFileToDownloads(fileBytes, safeFilename, mimeType)
 
@@ -85,11 +87,22 @@ class JsBridge(
             uri
         } else {
             val downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+            if (!downloadsDir.exists()) {
+                downloadsDir.mkdirs()
+            }
             val file = File(downloadsDir, filename)
             FileOutputStream(file).use { stream ->
                 stream.write(bytes)
             }
-            Uri.fromFile(file)
+            try {
+                androidx.core.content.FileProvider.getUriForFile(
+                    context,
+                    "${context.packageName}.fileprovider",
+                    file
+                )
+            } catch (e: Exception) {
+                Uri.fromFile(file)
+            }
         }
     }
 

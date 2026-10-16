@@ -10,9 +10,10 @@ import android.webkit.URLUtil
 import android.widget.Toast
 import com.phishguard.ai.R
 
+import java.io.File
+
 class DownloadHandler(
-    private val context: Context,
-    private val onPermissionNeeded: (String, () -> Unit) -> Unit
+    private val context: Context
 ) : DownloadListener {
 
     override fun onDownloadStart(
@@ -24,8 +25,14 @@ class DownloadHandler(
     ) {
         if (url == null) return
 
-        val filename = URLUtil.guessFileName(url, contentDisposition, mimetype)
-        startDownloadManager(url, userAgent, contentDisposition, mimetype, filename)
+        // DownloadManager only supports HTTP/HTTPS URIs. Prevent IllegalArgumentException on blob:/data: URIs.
+        if (!url.startsWith("http://", ignoreCase = true) && !url.startsWith("https://", ignoreCase = true)) {
+            return
+        }
+
+        val rawFilename = URLUtil.guessFileName(url, contentDisposition, mimetype)
+        val safeFilename = File(rawFilename).name.replace("[^a-zA-Z0-9._-]".toRegex(), "_")
+        startDownloadManager(url, userAgent, contentDisposition, mimetype, safeFilename)
     }
 
     private fun startDownloadManager(

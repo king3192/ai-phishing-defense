@@ -11,8 +11,10 @@ import android.os.Build
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import androidx.core.content.FileProvider
 import com.phishguard.ai.MainActivity
 import com.phishguard.ai.R
+import java.io.File
 
 object NotificationHelper {
 
@@ -54,6 +56,7 @@ object NotificationHelper {
 
     /**
      * Shows a notification when a PDF/CSV audit report finishes downloading.
+     * Prevents FileUriExposedException on Android 7.0+ (API 24+) by wrapping file: URIs with FileProvider.
      */
     fun showDownloadNotification(context: Context, filename: String, fileUri: Uri?, mimeType: String) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -66,8 +69,24 @@ object NotificationHelper {
             }
         }
 
+        // Safeguard against FileUriExposedException on Android 7.0-9.0 (API 24-28)
+        val safeUri: Uri? = if (fileUri != null && fileUri.scheme == "file") {
+            try {
+                val file = File(fileUri.path ?: "")
+                FileProvider.getUriForFile(
+                    context,
+                    "${context.packageName}.fileprovider",
+                    file
+                )
+            } catch (e: Exception) {
+                fileUri
+            }
+        } else {
+            fileUri
+        }
+
         val openIntent = Intent(Intent.ACTION_VIEW).apply {
-            setDataAndType(fileUri, mimeType)
+            setDataAndType(safeUri, mimeType)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK)
         }
 

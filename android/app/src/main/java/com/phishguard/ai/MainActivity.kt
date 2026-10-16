@@ -27,7 +27,6 @@ import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
@@ -226,13 +225,7 @@ class MainActivity : AppCompatActivity() {
         )
 
         // Download Listener
-        webView.setDownloadListener(DownloadHandler(this) { permission, onGranted ->
-            if (ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED) {
-                onGranted()
-            } else {
-                ActivityCompat.requestPermissions(this, arrayOf(permission), 101)
-            }
-        })
+        webView.setDownloadListener(DownloadHandler(this))
 
         // JavaScript Bridge for Blob Downloads and Native Logout
         webView.addJavascriptInterface(JsBridge(this, webView), JsBridge.BRIDGE_NAME)
@@ -252,8 +245,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Only allow pull-to-refresh when WebView is at top to avoid interfering with scrollable lists
-        binding.webView.viewTreeObserver.addOnScrollChangedListener {
-            binding.swipeRefresh.isEnabled = binding.webView.scrollY == 0
+        // Uses setOnScrollChangeListener (API 23+) instead of ViewTreeObserver to prevent listener leaks
+        binding.webView.setOnScrollChangeListener { _, _, scrollY, _, _ ->
+            binding.swipeRefresh.isEnabled = (scrollY == 0)
         }
     }
 
@@ -391,6 +385,7 @@ class MainActivity : AppCompatActivity() {
         callback: ValueCallback<Array<Uri>>?,
         params: WebChromeClient.FileChooserParams?
     ): Boolean {
+        cameraImageUri = null
         fileUploadCallback?.onReceiveValue(null)
         fileUploadCallback = callback
 
@@ -422,7 +417,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val intentArray: Array<Intent?> = if (cameraImageUri != null) {
+        val intentArray: Array<Intent> = if (cameraImageUri != null) {
             arrayOf(takePictureIntent)
         } else {
             emptyArray()
