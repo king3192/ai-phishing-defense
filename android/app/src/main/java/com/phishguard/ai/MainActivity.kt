@@ -156,7 +156,6 @@ class MainActivity : AppCompatActivity() {
         // JavaScript & Web Storage
         settings.javaScriptEnabled = true
         settings.domStorageEnabled = true
-        settings.databaseEnabled = true
 
         // Viewport & Scaling
         settings.useWideViewPort = true
@@ -173,8 +172,6 @@ class MainActivity : AppCompatActivity() {
         // Security restrictions
         settings.allowFileAccess = false
         settings.allowContentAccess = false
-        settings.allowFileAccessFromFileURLs = false
-        settings.allowUniversalAccessFromFileURLs = false
         settings.mixedContentMode = WebSettings.MIXED_CONTENT_NEVER_ALLOW
 
         // Custom User Agent Suffix
