@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Central Mobile Configuration -->
+    <string name="config_app_name">PhishGuard AI</string>
+    <string name="config_base_url">https://ai-phishing-defense.vercel.app/</string>
+    <string name="config_debug_base_url">http://10.0.2.2:5173/</string>
+    <string name="config_user_agent_suffix">PhishGuardAndroidApp/1.0</string>
+    <bool name="config_flag_secure_enabled">false</bool>
+
+    <!-- Allowed Hosts for In-App WebView Navigation -->
+    <string-array name="config_allowed_hosts">
+        <item>ai-phishing-defense.vercel.app</item>
+        <item>ai-phishing-defense.onrender.com</item>
+        <item>10.0.2.2</item>
+        <item>localhost</item>
+        <item>127.0.0.1</item>
+    </string-array>
+</resources>

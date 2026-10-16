@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Color Palette (Deep Navy + Cyan Cyber Threat Theme) -->
+    <color name="primary_navy">#0B1530</color>
+    <color name="primary_navy_dark">#070B14</color>
+    <color name="surface_navy">#0D1424</color>
+    <color name="card_navy">#111B2E</color>
+    <color name="border_navy">#1A273E</color>
+
+    <!-- Threat-Aware Accent Colors -->
+    <color name="accent_cyan">#06B6D4</color>
+    <color name="accent_cyan_light">#22D3EE</color>
+    <color name="accent_blue">#3B82F6</color>
+    <color name="threat_rose">#F43F5E</color>
+    <color name="threat_amber">#F59E0B</color>
+    <color name="safe_emerald">#10B981</color>
+
+    <!-- Text & UI States -->
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_muted">#64748B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="progress_bar">#06B6D4</color>
+</resources>

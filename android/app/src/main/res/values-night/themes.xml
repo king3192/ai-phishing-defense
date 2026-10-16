@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark Mode Theme (Default for PhishGuard AI Cyber Theme) -->
+    <style name="Theme.PhishGuard" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorOnPrimary">@color/primary_navy_dark</item>
+        <item name="colorPrimaryContainer">@color/surface_navy</item>
+        <item name="colorOnPrimaryContainer">@color/text_primary</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:windowBackground">@color/primary_navy_dark</item>
+    </style>
+</resources>

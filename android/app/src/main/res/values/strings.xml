@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhishGuard AI</string>
+
+    <!-- Offline and Error Screen -->
+    <string name="error_offline_title">No Internet Connection</string>
+    <string name="error_offline_desc">PhishGuard AI requires an active network connection to run threat detection models and sync your security playbooks.</string>
+    <string name="error_offline_retry">Retry Connection</string>
+    <string name="error_ssl_title">Security Warning</string>
+    <string name="error_ssl_desc">An unverified or invalid SSL certificate was detected. For your protection, connection was safely blocked.</string>
+
+    <!-- Navigation & Back Handling -->
+    <string name="exit_toast">Press back again to exit</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_title">Camera Access Required</string>
+    <string name="permission_camera_desc">PhishGuard AI needs camera access to scan physical QR codes and evaluate phishing matrices in real time.</string>
+    <string name="permission_camera_settings">Open Settings</string>
+    <string name="permission_camera_cancel">Cancel</string>
+
+    <!-- Downloads -->
+    <string name="download_started">Downloading report: %s</string>
+    <string name="download_complete">Report saved to Downloads: %s</string>
+    <string name="download_failed">Failed to download report: %s</string>
+
+    <!-- Notification Channels -->
+    <string name="channel_alerts_name">High Risk Threat Alerts</string>
+    <string name="channel_alerts_desc">Urgent security notifications for detected phishing attacks and credential compromises.</string>
+    <string name="channel_downloads_name">Threat Reports &amp; Exports</string>
+    <string name="channel_downloads_desc">Status alerts for exported security audit reports in CSV and PDF formats.</string>
+
+    <!-- Share Intent -->
+    <string name="share_text_copied">Suspicious content copied to clipboard!</string>
+</resources>
