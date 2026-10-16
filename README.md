@@ -183,3 +183,33 @@ backend\venv\Scripts\python.exe backend\test_full_suite.py
 9. **Flow 9 — Admin Portal**: `/admin` stats, platform scam breakdown, user account lists, and security tip CRUD verified.
 10. **Flow 10 — Danger Zone (Reset All Data)**: Modal confirmation, `RESET` string validation, and password checks verified; wrong password rejected (400), correct password atomically purges user scans, action progress, alerts, and reports, resets dashboard and security score to baseline, preserves user account/login, and leaves other users' data untouched.
 11. **Flow 11 — Protected Routes**: Unauthenticated requests to protected endpoints properly blocked with HTTP 401 Unauthorized.
+
+---
+
+## 🌐 Live Cloud Deployment (Production)
+
+- **Live Web Application (Vercel)**: [https://ai-phishing-defense.vercel.app](https://ai-phishing-defense.vercel.app)
+- **Live Backend API (Render)**: [https://ai-phishing-defense.onrender.com](https://ai-phishing-defense.onrender.com)
+- **API Swagger Documentation**: [https://ai-phishing-defense.onrender.com/docs](https://ai-phishing-defense.onrender.com/docs)
+- **Database Engine**: TiDB Cloud Serverless MySQL (Managed & Auto-Scaling)
+- **Full Deployment Documentation**: Refer to [`DEPLOYMENT.md`](./DEPLOYMENT.md) for environment specs and CI/CD redeployment steps.
+
+---
+
+## 📱 Stage 2: Native Android Mobile App (WebView Wrapper)
+
+The `/android` directory contains a complete native Android Studio Kotlin project wrapping the live platform with zero UI compromises:
+
+- **Directory**: [`android/`](./android)
+- **Application ID**: `com.phishguard.ai`
+- **Target SDK**: Android 15 (API 35), Min SDK: Android 7.0 (API 24)
+- **Core Capabilities**:
+  - Full-screen immersion with edge-to-edge system insets (notches & gesture navigation).
+  - Secure sandboxed navigation (`UrlPolicy`): phishing URLs are quarantined from the app context and open only in external browsers.
+  - Live QR code scanning via camera (`getUserMedia` + runtime permission bridge).
+  - File picker for image attachments, documents (CSV/PDF), and QR gallery uploads.
+  - Native PDF & CSV downloads via `DownloadManager` and client-side `blob:` MediaStore bridge.
+  - Share Target Intent: Long-press any message in WhatsApp or SMS and tap **Share → PhishGuard AI** to prefill scanners.
+  - Custom offline screen with automated connection recovery.
+  - Isolated Firebase Cloud Messaging (FCM) push notification infrastructure.
+- **Full Mobile Guide**: See [`android/README.md`](./android/README.md) for keystore generation, release builds, and testing.
