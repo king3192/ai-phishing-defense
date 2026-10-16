@@ -3,11 +3,26 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 from app.core.config import settings
 
+import re
+
 db_url = settings.DATABASE_URL.strip()
 
-# Normalize mysql:// to mysql+pymysql://
-if db_url.startswith("mysql://"):
+# Normalize mysql dialects to mysql+pymysql://
+if db_url.startswith("mysql+mysqldb://"):
+    db_url = db_url.replace("mysql+mysqldb://", "mysql+pymysql://", 1)
+elif db_url.startswith("mysql://"):
     db_url = db_url.replace("mysql://", "mysql+pymysql://", 1)
+
+# If pointing to 'sys' system database, switch to 'test'
+if "/sys?" in db_url or db_url.endswith("/sys"):
+    db_url = db_url.replace("/sys?", "/test?").replace("/sys", "/test")
+
+# Ensure TiDB / cloud MySQL has clean SSL params for pymysql
+if "ssl_mode=" in db_url or "ssl_ca=" in db_url:
+    db_url = re.sub(r'ssl_mode=[^&]*', 'ssl_verify_cert=true', db_url)
+    db_url = re.sub(r'&?ssl_ca=[^&]*', '', db_url).rstrip('?&')
+    if "ssl_verify_cert" not in db_url:
+        db_url += ("&" if "?" in db_url else "?") + "ssl_verify_cert=true"
 
 connect_args = {}
 if db_url.startswith("sqlite"):
