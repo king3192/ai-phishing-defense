@@ -1,0 +1,51 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+backend/.env
+backend/phishing_defense.db
+*.db
+*.sqlite3
+
+# Node & Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.npm
+.eslintcache
+frontend/.env
+frontend/.env.local
+.vite/
+
+# IDE & Editor Artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Android & Gradle (Phase 1)
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+local.properties
+.cxx/
+*.keystore
+*.jks
+google-services.json
+app/google-services.json
+captures/
+.externalNativeBuild

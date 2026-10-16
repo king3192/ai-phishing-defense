@@ -1,0 +1,556 @@
+url,verdict,scam_type
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
+http://sbi-secure-update.net/login.php?user=verify,Phishing,Banking scam
+http://hdfcnetbanking-alert.org/auth/login,Phishing,Banking scam
+http://icici-pass-reset.com/verify-account,Phishing,Banking scam
+http://phonepe-cashback-claim.xyz/scratch?amount=25000,Phishing,UPI/Payment scam
+http://gpay-scratch-rewards.co/claim-now,Phishing,UPI/Payment scam
+http://paytm-refund-portal.site/enter-pin,Phishing,UPI/Payment scam
+http://cancel-otp-trx.net/verify.php,Phishing,OTP scam
+http://amazon-auth-cancel.com/security,Phishing,OTP scam
+http://wfh-careers-india.com/apply-now,Phishing,Job scam
+http://tcs-careers-verify.net/pay-fee,Phishing,Job scam
+http://indiapost-redelivery.org/address-update,Phishing,Delivery scam
+http://fedex-customs-pay.com/pay-149,Phishing,Delivery scam
+http://crypto-profit-ai.biz/invest-btc,Phishing,Investment scam
+http://stock-market-traders.xyz/join-vip,Phishing,Investment scam
+http://instagram-copyright-appeal.com/form,Phishing,Social-media account scam
+http://facebook-security-check.net/login,Phishing,Social-media account scam
+http://paytm-kyc-update.org/video-kyc,Phishing,Fake KYC scam
+http://pan-aadhaar-link-portal.net/link,Phishing,Fake KYC scam
+http://kbc-lottery-winner.com/claim-25lakhs,Phishing,Prize/Lottery scam
+http://claim-free-iphone.site/shipping-payment,Phishing,Prize/Lottery scam
+http://power-bill-pay.net/pay-electricity,Phishing,Other/Unclassified scam
+http://e-challan-parivahan-pay.site/fine,Phishing,Other/Unclassified scam
+https://www.google.com,Safe,None
+https://www.hdfcbank.com/personal/default,Safe,None
+https://www.amazon.in/gp/history,Safe,None
+https://www.github.com/fastapi/fastapi,Safe,None
+https://www.wikipedia.org,Safe,None
+https://www.icicibank.com/personal-banking,Safe,None
+https://www.sbi.co.in,Safe,None
+https://www.phonepe.com,Safe,None
+https://www.paytm.com,Safe,None
+https://www.airtel.in,Safe,None
+https://www.jio.com,Safe,None
+https://www.fedex.com/en-in/tracking.html,Safe,None
+https://www.dhl.com/in-en/home.html,Safe,None
+https://www.incometax.gov.in/iec/foportal/,Safe,None
+https://www.uidai.gov.in,Safe,None
